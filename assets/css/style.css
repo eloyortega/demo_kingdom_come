@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css?family=Amiri|Cinzel');
+
+/*preset*/
+*{
+	box-sizing: border-box;
+	font-family: 'Amiri', serif;
+	margin:0;
+	padding:0;
+}
+
+h1{
+	font-size:69px;
+}
+
+h2{
+	font-size:35px;
+	margin-bottom: 10px;
+}
+
+h3{
+	font-size:24px;
+}
+
+h1,h2,h3{
+	font-family: 'Cinzel', serif;
+	color:#511211;
+}
+
+p, label, input{
+	font-size: 20px;
+	line-height: 30px;
+
+}
+
+a{
+	text-decoration: none;
+	color:#CE3F2F;
+}
+
+a:hover{
+	color:#F6BBAC;
+}
+
+.btn{
+	display:inline-block;
+	padding:10px 30px;
+	color:#fff;
+	background:#CE3F2F;
+	text-transform: uppercase;
+	margin-top: 10px;
+	border:3px double #CE3F2F;
+}
+
+.btn:hover{
+	background:#F6BBAC;
+	color:#CE3F2F;
+}
+
+img{
+	max-width: 100%;
+}
+
+hr{
+	border: 0;
+	height: 0;
+	border-bottom:3px solid #511211;
+	margin:30px 0;
+}
+
+/*nav*/
+header{
+	background:#000;
+	position:relative;
+}
+
+#logo{
+	width:250px;
+	display: block;
+}
+
+nav{
+	position:absolute;
+	right:20px;
+	top:10px;
+}
+
+nav ul{
+	list-style: none;
+}
+
+nav li{
+	display:inline-block;
+}
+
+nav a{
+	color:#fff;
+	padding:13px;
+	padding-right: 14px;
+	font-size:24px;
+	text-transform: uppercase;
+}
+
+nav a:hover{
+	background:#841C18;
+}
+
+/*columns*/
+.container{
+	max-width:950px;
+	margin:0 auto;
+	display:flex;
+flex-wrap:wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.col{
+/*	float:left;*/
+}
+
+.c33{
+	width:33.333333%;
+}
+
+.c67{
+	width:66.666667%;
+}
+
+.c50{
+	width:50%;
+}
+
+.c100{
+	width:100%;
+}

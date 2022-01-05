@@ -1,0 +1,76 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Kingdom Come</title>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="assets/css/style.css">
+		<style>
+			
+			h1{
+				font-size:35px;
+			}
+
+			.container{
+				max-width:100%;
+				height:calc(100vh - 65px);
+			}
+
+			#map{
+				height:100%;
+			}
+
+			.col:last-child{
+				padding-left:40px;
+				padding-top:40px;
+				max-width:500px;
+			}
+
+			label, input{
+				width:100%;
+				max-width:300px;
+			}
+
+			input{
+				margin-bottom:20px;
+				
+			}
+		</style>
+	</head>
+	<body>
+		<header>
+			<img src="assets/img/logo.png" id="logo">
+			<nav>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="contact.html">Sign Up</a></li>
+					<li><a href="https://www.facebook.com/dccomics/" target="_blank"><i class="fa fa-facebook"></i></a></li>
+					<li><a href="https://www.instagram.com/dccomics/?hl=en" target="_blank"><i class="fa fa-instagram"></i></a></li>
+					<li><a href="https://twitter.com/DCComics" target="_blank"><i class="fa fa-twitter"></i></a></li>
+				</ul>
+			</nav>
+		</header>
+		<div id="signup">
+			<div class="container">
+				<div class="col c50" id="map">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3023.2974356005307!2d-73.99294488459437!3d40.733480279329555!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259991e988193%3A0x65723cc5ffde9287!2sForbidden+Planet!5e0!3m2!1sen!2sus!4v1552319772045" width="100%" height="100%" frameborder="0" style="border:0;" allowfullscreen></iframe>
+				</div>
+				<div class="col c50">
+					<h1>Sign up to Pre-order</h1>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex.</p>
+					<hr>
+					<form>
+						<label>Name<br>
+							<input type="text" name="fn">
+						</label>
+						<br>
+						<label>Email<br>
+							<input type="email" name="eml">
+						</label>
+						<br>
+						<input type="submit" value="Sign Up" class="btn">
+					</form>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
